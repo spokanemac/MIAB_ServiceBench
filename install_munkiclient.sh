@@ -56,7 +56,7 @@ $DEFAULTS write $MANAGEDINSTALLS DaysBetweenNotifications -int 1000
 
 ##### Install the latest Munki Package #####
 #Download
-$CURL https://github.com/munki/munki/releases/download/v2.7.1/munkitools-2.7.1.2764.pkg > /tmp/munki2.pkg 
+$CURL https://github.com/munki/munki/releases/download/v2.8.1/munkitools-2.8.1.2845.pkg > /tmp/munki2.pkg 
 #Install
 $INSTALLER -target / -pkg /tmp/munki2.pkg 
 #Cleanup
